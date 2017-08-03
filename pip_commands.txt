@@ -1,0 +1,31 @@
+﻿Python -m pip -v
+PIP
+ in a standard .py file or document you will only be able to work with the standard library tools packaged with the language.
+However, as a language grows and is used for more purposes, developers build their own tools and package them for use by others. These are known as third party modules. Pip is the package manager we use in Python to install these modules. Installing third party modules is very simple, because pip does a great job at knowing which version of that package we need to match our Python version. Although we will learn more about using these modules later, let's try installing some now!
+
+
+Install → pip install Django , pip install Flask
+         PS C:\Users\alireza> pip install Django
+E.g. 
+You are using pip version 7.0.1, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting Django
+  Downloading Django-1.11.3-py2.py3-none-any.whl (6.9MB)
+    100% |################################| 7.0MB 70kB/s
+Collecting pytz (from Django)
+  Downloading pytz-2017.2-py2.py3-none-any.whl (484kB)
+    100% |################################| 487kB 853kB/s
+Installing collected packages: pytz, Django
+Successfully installed Django-1.11.3 pytz-2017.2
+
+
+Upgrade → pip install --upgrade
+
+
+Uninstall →  pip uninstall Django
+
+
+Pip list → List installed packages, including editables.
+Pip freeze → list installed packages
+Pip show Django → shows the info about the package - its author , version, requirements …
+Pip search Flask → shows all the available commands in Flask
